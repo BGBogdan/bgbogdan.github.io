@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PA database app</title>
+  <meta name="description" content="PA database app connects Claude to a private Google BigQuery database with read-only access.">
+  <style>
+    :root { --bg:#fbfaf7; --fg:#1f1e1c; --muted:#5f5b53; --line:#e4e0d8; --link:#1a5fb4; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg:#181715; --fg:#ecebe7; --muted:#a8a49b; --line:#34322d; --link:#8ab4f8; }
+    }
+    * { box-sizing: border-box; }
+    body { margin:0; background:var(--bg); color:var(--fg);
+           font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    main { max-width: 42rem; margin: 0 auto; padding: 3rem 1rem 4rem; }
+    h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 .5rem; }
+    .lede { color: var(--muted); font-size: 1.125rem; margin: 0 0 2rem; }
+    h2 { font-size: 1.15rem; margin: 2rem 0 .5rem; }
+    a { color: var(--link); }
+    footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>PA database app</h1>
+    <p class="lede">A private connection between Claude and a Google BigQuery database.</p>
+
+    <h2>What it does</h2>
+    <p>PA database app lets people who have been given access connect Claude, Anthropic's AI assistant, to a Google BigQuery database. They can then ask questions about the data in plain language, and Claude runs the queries needed to answer them.</p>
+
+    <h2>Read-only access</h2>
+    <p>The Google account used with this app can only read data. It cannot create, change or delete anything in the database.</p>
+
+    <h2>Who can use it</h2>
+    <p>This is a private tool, not a public service. Signing in only works for accounts that have been given access to the database in Google Cloud.</p>
+
+    <footer>
+      <p><a href="privacy.html">Privacy policy</a></p>
+    </footer>
+  </main>
+</body>
+</html>
